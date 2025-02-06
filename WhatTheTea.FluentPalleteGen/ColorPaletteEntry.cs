@@ -25,21 +25,21 @@ namespace WhatTheTea.FluentPalleteGen
         private string _title;
         public string Title
         {
-            get { return _title; }
-            set { _title = value; }
+            get => _title;
+            set => _title = value;
         }
 
         private string _description;
         public string Description
         {
-            get { return _description; }
-            set { _description = value; }
+            get => _description;
+            set => _description = value;
         }
 
         private ARGB _activeColor;
         public ARGB ActiveColor
         {
-            get { return _activeColor; }
+            get => _activeColor;
             set
             {
                 if (_activeColor != value)
@@ -52,26 +52,17 @@ namespace WhatTheTea.FluentPalleteGen
             }
         }
 
-        public string ActiveColorString
-        {
-            get
-            {
-                return ColorUtils.FormatColorString(_activeColor, _activeColorStringFormat);
-            }
-        }
+        public string ActiveColorString => ColorUtils.FormatColorString(_activeColor, _activeColorStringFormat);
 
         private ColorStringFormat _activeColorStringFormat = ColorStringFormat.PoundRGB;
-        public ColorStringFormat ActiveColorStringFormat
-        {
-            get { return _activeColorStringFormat; }
-        }
+        public ColorStringFormat ActiveColorStringFormat => _activeColorStringFormat;
 
         public event Action<IColorPaletteEntry> ActiveColorChanged;
 
         private IReadOnlyList<ContrastColorWrapper> _contrastColors;
         public IReadOnlyList<ContrastColorWrapper> ContrastColors
         {
-            get { return _contrastColors; }
+            get => _contrastColors;
             set
             {
                 if (_contrastColors != value)
@@ -105,10 +96,7 @@ namespace WhatTheTea.FluentPalleteGen
         }
 
         private ContrastColorWrapper _bestContrastColor;
-        public ContrastColorWrapper BestContrastColor
-        {
-            get { return _bestContrastColor; }
-        }
+        public ContrastColorWrapper BestContrastColor => _bestContrastColor;
 
         public double BestContrastValue
         {

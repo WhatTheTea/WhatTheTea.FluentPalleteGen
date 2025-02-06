@@ -242,24 +242,15 @@ namespace WhatTheTea.FluentPalleteGen.Utils
 
         public readonly byte MinRed;
         public readonly byte MaxRed;
-        public int RedRange
-        {
-            get { return MaxRed - MinRed; }
-        }
+        public int RedRange => MaxRed - MinRed;
 
         public readonly byte MinGreen;
         public readonly byte MaxGreen;
-        public int GreenRange
-        {
-            get { return MaxGreen - MinGreen; }
-        }
+        public int GreenRange => MaxGreen - MinGreen;
 
         public readonly byte MinBlue;
         public readonly byte MaxBlue;
-        public int BlueRange
-        {
-            get { return MaxBlue - MinBlue; }
-        }
+        public int BlueRange => MaxBlue - MinBlue;
 
         public RGBAxis WidestAxis
         {
@@ -283,10 +274,7 @@ namespace WhatTheTea.FluentPalleteGen.Utils
             }
         }
 
-        public int ColorVolume
-        {
-            get { return (RedRange + 1) * (GreenRange + 1) * (BlueRange + 1); }
-        }
+        public int ColorVolume => (RedRange + 1) * (GreenRange + 1) * (BlueRange + 1);
 
         public static void InsertIntoSortedList(List<ColorQuantizationBox> list, ColorQuantizationBox newItem, Func<ColorQuantizationBox, long> sortPriority)
         {
