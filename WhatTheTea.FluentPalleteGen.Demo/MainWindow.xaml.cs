@@ -52,7 +52,7 @@ namespace PalleteTest
             {
                 Pallete.Clear();
 
-                var pallete = new ColorPalette(7, baseColor, null!);
+                var pallete = new ColorPalette(7, baseColor);
 
                 foreach (var entry in pallete.Palette)
                 {

@@ -10,11 +10,11 @@ namespace WhatTheTea.FluentPalleteGen
 {
     public class ColorPalette : IColorPalette
     {
-        public ColorPalette(int steps, ARGB baseColor, IReadOnlyList<ContrastColorWrapper> contrastColors)
+        public ColorPalette(int steps, ARGB baseColor, IReadOnlyList<ContrastColorWrapper> contrastColors = null)
             : this(steps, new ColorPaletteEntry(baseColor, null, null, ColorStringFormat.PoundRGB, null), contrastColors)
         { }
 
-        public ColorPalette(int steps, IColorPaletteEntry baseColor, IReadOnlyList<ContrastColorWrapper> contrastColors)
+        public ColorPalette(int steps, IColorPaletteEntry baseColor, IReadOnlyList<ContrastColorWrapper> contrastColors = null)
         {
             if (_steps <= 0)
             {
