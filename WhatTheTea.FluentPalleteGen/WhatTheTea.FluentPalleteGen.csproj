@@ -8,7 +8,7 @@
 		<PackageId>WhatTheTea.FluentPalleteGen</PackageId>
 		<PackageTags>colors;fluent;pallete;desktop;wpf;winui;uwp;accent</PackageTags>
 		<Description>
-			Portable fluent pallete generation lib extracted from XAML Theme Editor
+			Portable fluent pallete generation lib extracted from Fluent XAML Theme Editor
 		</Description>
 		<RepositoryUrl>https://github.com/WhatTheTea/WhatTheTea.FluentPalleteGen</RepositoryUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
