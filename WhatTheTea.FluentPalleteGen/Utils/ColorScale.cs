@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace WhatTheTea.FluentPalleteGen.Internal
+namespace WhatTheTea.FluentPalleteGen.Utils
 {
     public enum ColorScaleInterpolationMode { RGB, LAB, XYZ };
 

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace WhatTheTea.FluentPalleteGen.Internal
+namespace WhatTheTea.FluentPalleteGen.Utils
 {
     public static class ColorUtils
     {

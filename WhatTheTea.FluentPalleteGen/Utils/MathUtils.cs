@@ -3,7 +3,7 @@
 
 using System;
 
-namespace WhatTheTea.FluentPalleteGen.Internal
+namespace WhatTheTea.FluentPalleteGen.Utils
 {
     public static class MathUtils
     {

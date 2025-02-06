@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Generic;
 
-using WhatTheTea.FluentPalleteGen.Internal;
+using WhatTheTea.FluentPalleteGen.Utils;
 
 namespace WhatTheTea.FluentPalleteGen
 {

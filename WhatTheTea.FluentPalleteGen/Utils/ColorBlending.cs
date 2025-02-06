@@ -3,7 +3,7 @@
 
 using System;
 
-namespace WhatTheTea.FluentPalleteGen.Internal
+namespace WhatTheTea.FluentPalleteGen.Utils
 {
     internal enum ColorBlendMode { Burn, Darken, Dodge, Lighten, Multiply, Overlay, Screen };
 

@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 using Microsoft.UI.Xaml;
 
 using WhatTheTea.FluentPalleteGen;
-using WhatTheTea.FluentPalleteGen.Internal;
+using WhatTheTea.FluentPalleteGen.Utils;
 
 
 // To learn more about WinUI, the WinUI project structure,
