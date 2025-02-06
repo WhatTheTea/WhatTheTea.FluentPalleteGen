@@ -11,6 +11,7 @@
 			Portable fluent pallete generation lib extracted from Fluent XAML Theme Editor
 		</Description>
 		<RepositoryUrl>https://github.com/WhatTheTea/WhatTheTea.FluentPalleteGen</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/WhatTheTea/WhatTheTea.FluentPalleteGen</PackageProjectUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<Version>1.0.0</Version>
