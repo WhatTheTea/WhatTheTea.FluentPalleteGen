@@ -19,4 +19,4 @@ var pallete = new ColorPalette(7, baseColor);
 
 ## Demo App
 
-There is demo app source available at [WhatTheTea.FluentPalleteGen.Demo](WhatTheTea.FluentPalleteGen.Demo/). It consists of color picker and array of rectangles to represent generated pallete.
+There is demo app source available at [WhatTheTea.FluentPalleteGen.Demo](https://github.com/WhatTheTea/WhatTheTea.FluentPalleteGen/tree/master/WhatTheTea.FluentPalleteGen.Demo). It consists of color picker and array of rectangles to represent generated pallete.
